@@ -2,11 +2,18 @@
 
 /**
 * main - entry point on line 12
-* No args taken
 *
-* Des: program uses size() to output the size of data types
-* Return: Always return 0 (Success)
-* Your program return 0
+* declare integer
+* declare float
+* declare long int
+* declare char
+* declare long long int
+* assign char
+* assign int
+* assign long int
+* assign long long int
+* assign float
+* Return: Always 0 (Success) 
 */
 
 int main(void)

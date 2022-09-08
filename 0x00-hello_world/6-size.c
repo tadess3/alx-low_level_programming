@@ -5,7 +5,7 @@
 * No args taken
 *
 * Des: program uses size() to output the size of data types
-* Return: Always retuens 0(success)
+* Return: Always return 0 (Success)
 *
 */
 

@@ -1,12 +1,10 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
-*main func started here
-*main func ended here
-*Return (1)
-*
-*/
+ * main - Entry point
+ * Return: Always 1 (Success)
+ */
 int main(void)
 {
 	write(STDOUT_FILENO, "and that piece of art is useful

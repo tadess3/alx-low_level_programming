@@ -13,7 +13,7 @@
 * assign long int
 * assign long long int
 * assign float
-* Return: Always 0 (Success) 
+* Return: Always 0 (Success)
 */
 int main(void)
 {

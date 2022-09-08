@@ -6,7 +6,7 @@
 *
 * Des: program uses size() to output the size of data types
 * Return: Always return 0 (Success)
-*
+* Your program return 0
 */
 
 int main(void)

@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
-* main - entry point
+* main - entry point on line 12
 * No args taken
 *
 * Des: program uses size() to output the size of data types

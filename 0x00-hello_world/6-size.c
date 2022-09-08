@@ -1,9 +1,11 @@
 #include<stdio.h>
 
 /**
-* *main func started here
-* *
-* *Return:Always (0)
+* main -Entry point of the program o
+* No args taken
+*
+* Des: program uses size() to output the size of data types
+* Return: Always retuens 0(success)
 *
 */
 

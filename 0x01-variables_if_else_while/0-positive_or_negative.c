@@ -1,29 +1,23 @@
-#include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+#include<stdio.h>
+
 /**
-* main -Entry point started and ended here
-* Description: determing if int is positve or negative usinf ifelse
+* main - entry point, returns zero, positive, negative based on a number
 *
-* Return: Always 0 (Success)
+* Return: always 0
 */
-int main(void)
+int main(void)
 {
-        int n; 
-  
-        srand(time(0)); 
+        int n;
+
+        srand(time(0));
         n = rand() - RAND_MAX / 2;
-        if (n>0)
-        {
-        printf("%i is positive\n", n);
-        }
-        else if (n==0)
-        {
-        printf("%i is zero\n", n);
-        }
-        else
-        {
-        printf("%i is negative\n", n);
-        }
-        return (0);
+if (n == 0)
+printf("%d is zero\n", n);
+else if (n > 0)
+printf("%d is positive\n", n);
+else
+printf("%d is negative\n", n);
+return (0);
 }

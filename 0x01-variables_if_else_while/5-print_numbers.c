@@ -14,4 +14,5 @@ for (c = 48; c <= 57; c++)
 putchar(c);
 }
 putchar(10);
-retur
+return (0);
+}

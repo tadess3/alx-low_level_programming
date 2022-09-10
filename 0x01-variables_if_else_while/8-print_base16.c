@@ -5,19 +5,19 @@
 *
 *Return: always 0
 */
-int main(void)
+int main(void)
 {
-int c;
+int c;
 
-for (c = 48; c <= 57; c++)
+for (c = 48; c <= 57; c++)
 {
 putchar(c);
 }
 
-for (c = 97; c <= 102; c++)
+for (c = 97; c <= 102; c++)
 {
 putchar(c);
 }
 putchar(10);
-return (0);
+return (0);
 }

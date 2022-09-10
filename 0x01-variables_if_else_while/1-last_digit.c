@@ -1,27 +1,26 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include<stdlib.h>
+#include<time.h>
+#include<stdio.h>
+
 /**
-* main - Entry point started here
+*main - entry point
 *
-* Return: Always 0 (Success)
-*/ 
-int main(void) 
-{ 
-        int n;
-        int l;
-        char str[] = "Last digit of";
+*Return: always 0
+*/
+int main(void)
+{
+int n, last_digit;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        l = n % 10;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+last_digit = n % 10;
 
-        if (l > 5)
-                printf("%s %d is %d and is greater than 5\n", str, n, l);
-        else if (l == 0)
-                printf("%s %d is %d and is 0\n", str, n, l);
-        else if (l < 6)
-                printf("%s %d is %d and is less than 6 and not 0\n", str, n, l);
-
-        return (0);
+printf("Last digit of %d is %d ", n, last_digit);
+if (last_digit == 0)
+printf("and is 0\n");
+else if (last_digit > 5)
+printf("and is greater than 5\n");
+else
+printf("and is less than 6 and not 0\n");
+return (0);
 }

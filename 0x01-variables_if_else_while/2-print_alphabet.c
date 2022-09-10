@@ -1,21 +1,23 @@
-#include <stdio.h>
 #include<stdlib.h>
 #include<time.h>
-/** 
-* main - Entry point for the program
-* takes no arguments, all statements are in the main function
+#include<stdio.h>
+
+/**
+* main - entry point, returns zero, positive, negative based on a number
 *
-* Description: Program that prints alphabets in lower case
-* Return: program always returns 0(success)
+* Return: always 0
 */
 int main(void)
 {
-char c = 'a'; 
-while (c <= 'z')
-{
-putchar(c);
-c++;
-}
-putchar('\n');
-return (0); 
+int n;
+
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n == 0)
+printf("%d is zero\n", n);
+else if (n > 0)
+printf("%d is positive\n", n);
+else
+printf("%d is negative\n", n);
+return (0);
 }

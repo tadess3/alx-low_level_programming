@@ -1,12 +1,13 @@
-#include <stdio.h> 
- /** 
-  * main - entry point 
-  * 
-  * codes for printing all possible combination of two d/t digits 
-  * in assending oeder and separated by a comma followed by a spa * 
-  * 
-  * Return: 0 Success 
-  */
+#include<stdio.h>
+
+/**
+*main -Entry point
+*
+*codes for printing all possible combination of two d/t digits
+*in assending oeder and separated by a comma followed by a spa *
+*
+*Return: 0 Success
+*/
 int main(void)
 {
 int a, b, c;

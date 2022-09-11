@@ -14,7 +14,7 @@ int a, b, c;
 
 for (a = 0; a < 9; a++)
 {
-for (b = a + 1; b < 8; b++)
+for (b = a + 1; b < 10; b++)
 {
 for (c = b + 1; c < 10; c++)
 {

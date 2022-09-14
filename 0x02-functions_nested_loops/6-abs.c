@@ -2,7 +2,7 @@
 
 /**
 *_abs -Entry point
-*
+*@x: integer argument
 *Return: x if +ve & 0
 */
 int _abs(int x)

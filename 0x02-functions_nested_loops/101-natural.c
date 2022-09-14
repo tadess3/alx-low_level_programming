@@ -13,7 +13,6 @@ for (i = 0; i < 1024; i++)
 if ((i % 5) == 0 || (i % 3) == 0)
 s = s + i;
 }
-printf("%d", s);
-printf('\n');
+printf("%d\n", s);
 return (0);
 }

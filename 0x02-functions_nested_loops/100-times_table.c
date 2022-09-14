@@ -7,42 +7,49 @@
 */
 void print_times_table(int n)
 {
-int x, y, z;
+int i, j;
 
-if (n >= 0 && n <= 15)
+if (n > 0 && n < 15)
 {
-for (x = 0; x <= n; x++)
+for (i = 0; i <= n; i++)
 {
-for (y = 0; y <= n; y++)
+_putchar('0');
+for (j = 1; j <= n; j++)
+putformat(i * j);
+_putchar('\n');
+}
+}
+}
+
+/**
+*putformat - formatted characters to output
+*@n: number to format
+*Return: nothing
+*/
+void putformat(int n)
 {
-z = (x * y);
-if (y == 0)
-_putchar('0' + z);
+if (n <= 9)
+{
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar(' ');
+_putchar(n + '0');
+}
+else if (n > 9 && n <= 99)
+{
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar(n / 10 + '0');
+_putchar(n % 10 + '0');
+}
 else
 {
 _putchar(',');
-_putchar(' ');
-if (z <= 9)
-{
-_putchar(' ');
-_putchar(' ');
-_putchar('0' + z);
-}
-else if (z > 9 && z < 100)
-{
-_putchar(' ');
-_putchar('0' + (z / 10));
-_putchar('0' + (z % 10));
-}
-else if (z >= 100);
-{
-_putchar('0' + (z / 100));
-_putchar('0' + ((z / 10) % 10));
-_putchar('0' + (z % 10));
-}
-}
-}
-_putchar('\n');
-}
+_putchar(' ');
+_putchar(n / 100 + '0');
+_putchar(n / 10 % 10 + '0');
+_putchar(n % 10 + '0');
 }
 }

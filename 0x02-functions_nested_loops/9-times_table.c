@@ -8,10 +8,10 @@
 void times_table(void)
 {
 int x, y, z;
-for (x; x <= 9; x++)
+for (x = 0; x <= 9; x++)
 {
 _putchar(48);
-for (y; y <= 9; y++)
+for (y = 1; y <= 9; y++)
 {
 z = x * y;
 _putchar(44);

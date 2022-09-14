@@ -9,7 +9,7 @@ int main(void)
 {
 int i;
 int fibb[50];
-fibb[9] = 1;
+fibb[0] = 1;
 fibb[1] = 2;
 printf("%d, %d, ", fibb[0], fibb[1]);
 

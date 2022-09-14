@@ -19,7 +19,7 @@ fibb[i] = fibb[i - 1] + fibb[i - 2];
 if (i == 49)
 printf("%d\n", fibb[i]);
 else
-printf("%d, ", fibb[I]);
+printf("%d, ", fibb[i]);
 }
 return (0);
 }

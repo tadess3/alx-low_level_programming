@@ -14,7 +14,7 @@ int b = 0;
 int c = 0;
 int d = 0;
 
-while (x < 1440);
+while (x < 1440)
 {
 _putchar(a + '0');
 _putchar(b + '0');
@@ -40,4 +40,5 @@ a++;
 }
 x++;
 }
+return (0);
 }

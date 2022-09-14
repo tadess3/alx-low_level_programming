@@ -2,7 +2,7 @@
 
 /**
 *_isalpha -Entry point
-*
+*@c: member of parameter
 *Return: 1 if c _isalpha
 */
 int _isalpha(int c)

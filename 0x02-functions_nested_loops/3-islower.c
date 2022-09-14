@@ -2,7 +2,7 @@
 
 /**
 *_islower -Entry point
-*
+*@c: character to check
 *Return: c if alphabet
 */
 int _islower(int c)

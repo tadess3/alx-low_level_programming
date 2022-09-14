@@ -14,5 +14,6 @@ if ((i % 5) == 0 || (i % 3) == 0)
 s = s + i;
 }
 printf("%d", s);
+printf('\n');
 return (0);
 }

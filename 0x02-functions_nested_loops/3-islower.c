@@ -3,7 +3,7 @@
 /**
 *_islower -Entry point
 *
-*Return: 1 if c islower
+*Return: c if alphabet
 */
 int _islower(int c)
 {

@@ -5,14 +5,14 @@
 *
 *Return: Always 0 (Success)
 */
-int main(void)
+int main(void)
 {
-int i, sum = 0;
-for (i = 0; i < 1024; i++)
+int i, s = 0;
+for (i = 0; i < 1024; i++)
 {
-if ((i % 5) == 0 || (i % 3) == 0)
-sum += i;
+if ((i % 5) == 0 || (i % 3) == 0)
+s = s + i;
 }
-printf("%d\n", sum);
-return (0);
+printf("%d", s);
+return (0);
 }

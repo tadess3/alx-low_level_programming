@@ -16,7 +16,7 @@ for (i = 0; i <= n; i++)
 {
 _putchar('0');
 for (j = 0; j <= n; j++)
-putformart(i * j);
+putformat(i * j);
 _putchar('\n');
 }
 }

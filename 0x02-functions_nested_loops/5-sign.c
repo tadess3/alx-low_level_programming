@@ -2,7 +2,7 @@
 
 /**
 *print_sign -Entry point
-*
+*@n: number to check
 *Return:
 */
 int print_sign(int n)

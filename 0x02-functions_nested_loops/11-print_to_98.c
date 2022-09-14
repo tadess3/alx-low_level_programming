@@ -14,6 +14,7 @@ if (n > 98)
 {
 for (m = n; n > 98; n--)
 printf("%d, ", m);
+}
 else
 for (m = n; n < 98; n++)
 printf("%d, ", m);

@@ -8,7 +8,7 @@
 int main(void)
 {
 int i;
-long int fibb[50];
+int fibb[50];
 fibb[9] = 1;
 fibb[1] = 2;
 printf("%d, %d, ", fibb[0], fibb[1]);

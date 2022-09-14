@@ -3,7 +3,7 @@
 /**
 *print_sign -Entry point
 *@n: number to check
-*Return:
+*Return: 1 for > 0, 0 for 0, -1 for < 0
 */
 int print_sign(int n)
 {

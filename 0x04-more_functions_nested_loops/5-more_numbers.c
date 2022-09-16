@@ -2,7 +2,7 @@
 
 /**
 *more_numbers -Entry point
-*10 times.
+*
 *Return: no return.
 */
 void more_numbers(void)

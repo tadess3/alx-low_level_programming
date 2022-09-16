@@ -5,19 +5,12 @@
 *@n: from parameter.
 *Return: no return.
 */
-void print_line(void)
-{
-if (n <= 0)
-{
-_putchar('\n');
-}
-else
+void print_line(int n)
 {
 int i;
 for (i = 0; i < n; i++)
 {
-_putchar('_');
+_putchar(97);
 }
 _putchar('\n');
-}
 }

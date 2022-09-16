@@ -2,7 +2,7 @@
 
 /**
 *print_numbers -Entry point
-*Return: no return. 
+*Return: no return.
 */
 void print_numbers(void)
 {

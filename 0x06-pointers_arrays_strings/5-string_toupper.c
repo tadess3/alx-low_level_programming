@@ -14,5 +14,5 @@ if (*s >= 'a' && *s <= 'z')
 *s -= 32;
 s++;
 }
-return (s);
+return (start);
 }

@@ -1,6 +1,6 @@
 Recursion
 
-Project done during Full Stack Software Engineering studies at Holberton School. It aims to learn about recursion and how to implement it in C language.
+Project done during Full Stack Software Engineering studies at ALX software engineering program. It aims to learn about recursion and how to implement it in C language.
 
 Technologies
 

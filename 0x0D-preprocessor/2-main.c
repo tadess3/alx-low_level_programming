@@ -1,25 +1,13 @@
-#include <stdio.h> 
+#include <stdio.h>
 
-  
-
- /** 
-
-  * main - Entry point of program. 
-
-  * 
-
-  * Description: Prints out filename from which the source code was compiled. 
-
-  * Return: Returns 0 on success. 
-
-  */ 
-
- int main(void) 
-
- { 
-
-         printf("%s\n", __FILE__); 
-
-         return (0); 
-
- }
+/**
+*main - Entry point of program.
+*
+*Description: Prints out filename from which the source code was compiled.
+*Return: Returns 0 on success.
+*/
+int main(void)
+{
+printf("%s\n", __FILE__);
+return (0);
+}
